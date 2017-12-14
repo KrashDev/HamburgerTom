@@ -633,6 +633,7 @@ a:hover {
     text-align: center;
     font-size: 27px;
     margin:auto;
+    margin-bottom: 2%;
     width: 10%;
     font-family: 'Domine', serif;
     border-bottom: 3px solid black;
@@ -642,7 +643,7 @@ a:hover {
     font-size: 27px;
     visibility:hidden;
     margin:auto;
-    width: 10%;
+    width: 90%;
     font-family: 'Domine', serif;
     color:#fff;
     border-bottom: 3px solid #fff;
@@ -656,7 +657,7 @@ svg {
     width: 50%;
 }
 
-#portfolio {
+.portfolio {
     position: relative;
     padding-top: 3%;
     height: 45%;
