@@ -9,13 +9,15 @@
     background-size: cover;
 }
 .cool-stuff {
-    height:300px;
 }
 
 /* signature animation */
 svg {
-    position:relative;
-    top:50%;
+    position: relative;
+    top:-200px;
+    left:22%;
+    margin:auto;
+    width:300px;
 }
 #aiJGpFF8V {
     stroke-dasharray:643;
@@ -42,7 +44,7 @@ svg {
 #b5gWfnHBtj {
     stroke-dasharray:777;
     stroke-dashoffset:-777;
-    animation: dash-third 2s linear forwards;
+    animation: dash-third 1.5s linear forwards;
     animation-delay:4.5s;
 }
 @keyframes dash-third {
@@ -53,8 +55,8 @@ svg {
 #b2afMgsppt {
     stroke-dasharray:627;
     stroke-dashoffset:-627;
-    animation: dash-fourth 1.5s linear forwards;
-    animation-delay:6.5s;
+    animation: dash-fourth 1.2s linear forwards;
+    animation-delay:5.5s;
 }
 @keyframes dash-fourth {
     to {
@@ -64,8 +66,8 @@ svg {
 #eInj2OfBP {
     stroke-dasharray:460;
     stroke-dashoffset:-460;
-    animation: dash-fifth 1.5s linear forwards;
-    animation-delay:8.2s;
+    animation: dash-fifth 1.2s linear forwards;
+    animation-delay:6.7s;
 }
 @keyframes dash-fifth {
     to {
@@ -115,6 +117,7 @@ svg {
 
 }
 .speakup2 {
+    left: -4%;
     margin-top:2%;
     color:#4d4d4d;
     position: relative;
@@ -142,6 +145,7 @@ svg {
     font-family: 'Raleway', sans-serif;
 }
 .jambook2 {
+    left: -4%;
     margin-top:2%;
     color:#4d4d4d;
     position: relative;
@@ -180,9 +184,10 @@ svg {
 }
 
 .resume {
-    margin-top:2%;
-    font-size: 22px;
-    color: #595959;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-size: 21px;
+    color: #ffffff;
 }
 
 
@@ -216,24 +221,16 @@ svg {
     }
 }
 
-#resumeButton {
-    position: relative;
-    top: 250px;
-    left: 8%;
-    font-size: 40px;
-    color: #ffffff;
-}
-
 .btn-primary-outline,
 .learnMore {
-    color: #595959;
+    color: #ffffff;
     border-radius: 20px;
-    border: 2px solid #595959;
+    border: 2px solid #ffffff;
     background-color: transparent;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 25px;
     margin: 4px 2px;
     cursor: pointer;
 }
@@ -262,7 +259,7 @@ svg {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     position: relative;
-    top: 205px;
+    top: 110px;
     color: #ffffff;
     border-radius: 20px;
     border: 2px solid #ffffff;
@@ -299,16 +296,11 @@ svg {
     top: 90%;
     left: -20%;
 }
-#navIt {
+/* #navIt {
     position:relative;
     top:20%;
     left:0%;
-}
-.cleaner {
-    text-align: center;
-    font-size: 37px;
-    animation-delay: 2s;
-}
+} */
 
 /* .lanks,
 li {
@@ -723,7 +715,7 @@ a:hover {
     font-size: 27px;
     width:20%;
     margin:auto;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     color:#595959;
     font-family: 'Domine', serif;
     border-bottom: 3px solid #595959;
@@ -738,14 +730,6 @@ a:hover {
     color:#fff;
     font-family: 'Domine', serif;
     border-bottom: 3px solid #fff;
-}
-
-svg {
-    position: absolute;
-    top: 700px;
-    left: 25%;
-    height: 12%;
-    width: 50%;
 }
 
 .projects {
