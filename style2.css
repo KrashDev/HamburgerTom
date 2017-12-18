@@ -8,8 +8,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.cool-stuff {
-}
 
 /* signature animation */
 svg {
@@ -74,6 +72,7 @@ svg {
         stroke-dashoffset: 0;
     }
 }
+/* bio/about info  */
 .who {
     font-family: 'Raleway', sans-serif;
     margin-top: 2%;
@@ -102,9 +101,6 @@ svg {
     font-size: 21px;
     color: #ffffff;
 }
-.magic {
-    color:red;
-}
 
 /* projects */
 
@@ -132,8 +128,8 @@ svg {
     font-size: 22px;
 }
 .block {
-    margin-top:10%;
-    margin-bottom:10%;
+    margin-top:5%;
+    margin-bottom:5%;
     width:40%;
     border-bottom:4px solid #999;
 }
@@ -152,7 +148,17 @@ svg {
     font-size: 22px;
     font-family: 'Raleway', sans-serif;
 }
-
+.magic {
+    margin-bottom:3%;
+    text-decoration: underline;
+}
+.role {
+    margin-top:4%;
+    font-size:16px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+/* Hidden nav bar */
 .ham {
     position:fixed;
     top: 10px;
@@ -164,10 +170,16 @@ svg {
     100% {transform:rotate(360deg);}
 }
 .ham:hover {
-    background: url("ham.svg");
-
+    animation-play-state: paused;
+    opacity:0.5;
 }
-/* need to make the image an actual circle */
+.hideNav {
+    visibility: hidden;
+}
+
+.unhide {
+    visibility: visible;
+}
 
 #me {
     height: 280px;
@@ -175,7 +187,6 @@ svg {
 }
 
 .about {
-    /* height:450px; */
     background-color:#2F345C;
     font-size: 22px;
     font-family: 'Raleway', sans-serif;
@@ -189,8 +200,6 @@ svg {
     font-size: 21px;
     color: #ffffff;
 }
-
-
 
 .skills-animate {
     animation: show 0.5s ease-in forwards;
@@ -277,17 +286,6 @@ svg {
     /*border: 2px solid #ffffff;*/
 }
 
-.navbar {
-    margin-bottom: 0px !important;
-    border-radius: 0px !important;
-    position: fixed;
-}
-
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-    background-color: #ffffff !important;
-}
-
 #clean {
     text-align: center;
     animation-delay: .5s;
@@ -296,41 +294,8 @@ svg {
     top: 90%;
     left: -20%;
 }
-/* #navIt {
-    position:relative;
-    top:20%;
-    left:0%;
-} */
 
-/* .lanks,
-li {
-    filter: 0;
-    word-spacing: 5px;
-    display: inline;
-    list-style-type: none;
-    font-size: 18px;
-    text-decoration: none;
-}
-
-.lanks,
-a {
-    color: #ffffff !important;
-}
-
-.lanks,
-a:hover {
-    color: #999999 !important;
-    text-decoration: none !important;
-}
-
-.lanks {
-    border-top: 2px solid #ffffff;
-    display: inline;
-    padding-top: 10px;
-    position: relative;
-    top: -50px;
-    left: -21%;
-} */
+/* fireflies */
 
 #fly1 {
     position: absolute;
