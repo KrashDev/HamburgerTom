@@ -1,0 +1,381 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>RollerCoaster</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bad+Script|Bubbler+One|Caveat|Comfortaa|Cookie|Dancing+Script|Gloria+Hallelujah|Handlee|Julius+Sans+One|Marck+Script|Sacramento|Satisfy|Tangerine" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="conatiner">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="header">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button id="main">
+
+                    <div id="enter" class="animated">enter the forest</div>
+                    
+                    <div id="fly1"></div>
+                    <div id="fly2"></div>
+                    <div id="fly3"></div>
+                    <div id="fly4"></div>
+                    <div id="fly5"></div>
+                    <div id="fly6"></div>
+                    <div id="fly7"></div>
+                    <div id="fly8"></div>
+                    <div id="fly9"></div>
+                    <div id="fly10"></div>
+                    <div id="fly11"></div>
+                    <div id="fly12"></div>
+				</button>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        #shroom {
+            overflow:hidden;
+            position:absolute;
+            top:0%;
+            left:0%;
+            opacity:0;
+            animation: mush 5s linear infinite;
+        }
+        #shroom, img {
+            width:100%;
+            height:auto;
+        }
+
+        @keyframes mush {
+            0% {}
+            50% {opacity:0.5;}
+            100%{}
+        }
+        #fly1 {
+            position: absolute;
+            top: 60%;
+            left: 7%;
+            opacity: 0;
+            height: 7px;
+            width: 7px;
+            transform-origin: 50% 50%;
+            transition: transform 0.5;
+            background-color: #ffffff;
+            border-radius: 50%;
+            animation: flya 5s linear infinite;
+            animation-delay: 1.5s;
+            filter: blur(2px);
+        }
+        
+        #fly2 {
+            opacity: 0;
+            position: absolute;
+            top: 65%;
+            left: 18%;
+            height: 7px;
+            width: 7px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            animation: flyb 5s linear infinite;
+            animation-delay: 1.6s;
+            filter: blur(2px);
+        }
+        
+        #fly3 {
+            transform-origin: 50% 200px;
+            opacity: 0;
+            position: absolute;
+            top: 70%;
+            left: 90%;
+            height: 7px;
+            width: 7px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            animation: flyc 5s linear infinite;
+            animation-delay: 1.7s;
+            filter: blur(2px);
+        }
+        
+        #fly4 {
+            transform-origin: 50% 200px;
+            opacity: 0;
+            position: absolute;
+            top: 70%;
+            left: 80%;
+            height: 7px;
+            width: 7px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            animation: flyd 5s linear infinite;
+            animation-delay: 1.8s;
+            filter: blur(2px);
+        }
+        
+        #fly5 {
+            transform-origin: 50% 200px;
+            opacity: 0;
+            position: absolute;
+            top: 79%;
+            left: 23%;
+            height: 7px;
+            width: 7px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            animation: flyb 5s linear infinite;
+            animation-delay: 1.9s;
+            filter: blur(2px);
+        }
+        
+        #fly6 {
+            transform-origin: 50% 200px;
+            opacity: 0;
+            position: absolute;
+            top: 85%;
+            left: 92%;
+            height: 7px;
+            width: 7px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            animation: flyb 5s linear infinite;
+            animation-delay: 2s;
+            filter: blur(2px);
+        }
+        
+        #fly7 {
+            position: absolute;
+            top: 70%;
+            left: 37%;
+            opacity: 0;
+            height: 7px;
+            width: 7px;
+            transform-origin: 50% 50%;
+            transition: transform 0.5;
+            background-color: #ffffff;
+            border-radius: 50%;
+            animation: flya 5s linear infinite;
+            animation-delay: 2.1s;
+            filter: blur(2px);
+        }
+        
+        #fly8 {
+            opacity: 0;
+            position: absolute;
+            top: 61%;
+            left: 48%;
+            height: 7px;
+            width: 7px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            animation: flyb 5s linear infinite;
+            animation-delay: 2.2s;
+            filter: blur(2px);
+        }
+        
+        #fly9 {
+            transform-origin: 50% 200px;
+            opacity: 0;
+            position: absolute;
+            top: 62%;
+            left: 39%;
+            height: 7px;
+            width: 7px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            animation: flyc 5s linear infinite;
+            animation-delay: 2.3s;
+            filter: blur(2px);
+        }
+        
+        #fly10 {
+            transform-origin: 50% 200px;
+            opacity: 0;
+            position: absolute;
+            top: 84%;
+            left: 66%;
+            height: 7px;
+            width: 7px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            animation: flyd 5s linear infinite;
+            animation-delay: 2.4s;
+            filter: blur(2px);
+        }
+        
+        #fly11 {
+            transform-origin: 50% 200px;
+            opacity: 0;
+            position: absolute;
+            top: 63%;
+            left: 55%;
+            height: 7px;
+            width: 7px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            animation: flyb 5s linear infinite;
+            animation-delay: 2.5s;
+            filter: blur(2px);
+        }
+        
+        #fly12 {
+            transform-origin: 50% 200px;
+            opacity: 0;
+            position: absolute;
+            top: 58%;
+            left: 71%;
+            height: 7px;
+            width: 7px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            animation: flyb 5s linear infinite;
+            animation-delay: 2.6s;
+            filter: blur(2px);
+        }
+        
+        @keyframes flya {
+            0% {
+                transform: translateX(3px);
+                opacity: 0.2;
+            }
+            25% {
+                transform: translateY(-3px);
+                opacity: 0.7;
+            }
+            50% {
+                transform: translateX(2px);
+                opacity: 0;
+            }
+            75% {
+                transform: translateY(4px);
+                opacity: 0.4;
+            }
+            100% {
+                transform: translateX(1px);
+                opacity: 0;
+            }
+        }
+        
+        @keyframes flyb {
+            0% {
+                transform: translateX(5px);
+                opacity: 0.2;
+            }
+            25% {
+                transform: translateY(-5px);
+                opacity: 0.7;
+            }
+            50% {
+                transform: translateX(10px);
+                opacity: 0;
+            }
+            75% {
+                transform: translateY(5px);
+                opacity: 0.4;
+            }
+            100% {
+                transform: translateX(0px);
+                opacity: 0;
+            }
+        }
+        
+        @keyframes flyc {
+            0% {
+                transform: translateX(6px);
+                opacity: 0.2;
+            }
+            25% {
+                transform: translateY(-6px);
+                opacity: 0.7;
+            }
+            50% {
+                transform: translateX(0px);
+                opacity: 0;
+            }
+            75% {
+                transform: translateY(4px);
+                opacity: 0.4;
+            }
+            100% {
+                transform: translateX(1px);
+                opacity: 0;
+            }
+        }
+        
+        @keyframes flyd {
+            0% {
+                transform: translateX(2px);
+                opacity: 0.2;
+            }
+            25% {
+                transform: translateY(2px);
+                opacity: 0.7;
+            }
+            50% {
+                transform: translateX(-4px);
+                opacity: 0;
+            }
+            75% {
+                transform: translateY(5px);
+                opacity: 0.4;
+            }
+            100% {
+                transform: translateX(-6px);
+                opacity: 0;
+            }
+        }
+        
+        #enter {
+            text-transform: uppercase;
+            color: #e6e6e6;
+            opacity:0;
+            font-family: 'Bubbler One', sans-serif;
+            animation: flush 3s linear forwards;
+            animation-delay: 1s;
+            font-size: 60px;
+            position: absolute;
+            filter: blur(4px);
+            top: 30%;
+            left: 30%;
+        }
+
+        @keyframes flush {
+         100% {
+            opacity:1;
+            filter: blur(1px);
+        }
+        }
+        
+        #main {
+            margin-top: 100px;
+            width: 1000px;
+            height: 550px;
+            background-image: url("forest.jpg");
+            /* filter: brightness(0.75); */
+            background-size: cover;
+            box-shadow: 10px 10px 5px #888888;
+            position: absolute;
+            top: 20%;
+            left: 15%;
+        }
+    </style>
+
+    <script>
+        // var shape = document.querySelector("#ctSG6uT8w");
+        // var shapeLength = shape.getTotalLength();
+        // console.log(shapeLength);
+
+        $("#main").click(function() {
+            window.location.href = "yellow.html";
+        });
+    </script>
+
+</body>
+</hmtl>

@@ -1,0 +1,136 @@
+    #deer {
+        /* transform: scale(.75); */
+        height:100%;
+        width:auto;
+    }
+    .cleaner {
+        font-size:20px;
+        position:relative;
+        top:-50px;
+        left:-25%;
+    }
+    .lanks {
+        visibility:hidden;
+    }
+    #fly1 {
+        visibility:hidden;
+    }
+    #fly2 {
+        visibility:hidden;
+    }
+    #fly3 {
+        visibility:hidden;
+    }
+    #fly4 {
+        visibility:hidden;
+    }
+    #fly5 {
+        visibility:hidden;
+    }
+    #fly6 {
+        visibility:hidden;
+    }    
+/* BIO SECTION */
+    #bio {
+        height:240;    
+    }
+    .face {
+        visibility:hidden;
+    }
+    .subname {
+        font-size: 20px;
+        width:100%;
+    }
+    .subname2 {
+        padding:10px;
+        visibility:unset;
+        font-size: 20px;w
+        width:100%;
+    }
+    #about {
+        left:5%;
+        font-size:14px;
+        width:100%;
+        line-height:15px;
+    }
+/* SKILLS SECTION */
+    .myskills {
+        top:10%;
+        font-size:14px;
+        width:100%;
+
+    }
+    .skills {
+        top:5%;
+        left:0%;
+        font-size:14px;
+        width:100%;
+    }
+    .resume {
+        top:15%;
+        left:-2%;
+        font-size:14px;
+        width:100%;
+    }
+    .projects {
+        height:100%;
+    }
+    .porti {
+        /* left:5%; */
+        margin-top:20px;
+        height:150px;
+        width:200px;
+    }
+    #learnMore {
+        color: #ffffff;
+        border-radius: 20px;
+        border: 2px solid #ffffff;
+        background-color: transparent;
+        position: relative;
+        top:10%;
+        padding: 10px 15px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    #learnMore2 {
+        color: #ffffff;
+        border-radius: 20px;
+        border: 2px solid #ffffff;
+        background-color: transparent;
+        position: relative;
+        top:80%;
+        padding: 10px 15px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    #learnMore3 {
+        color: #ffffff;
+        border-radius: 20px;
+        border: 2px solid #ffffff;
+        background-color: transparent;
+        position: relative;
+        padding: 10px 15px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    .animations {
+        color: #fff;
+        font-size: 14px;
+        top:0px;
+        left:0%;
+    }
+    .social {
+        border-radius: 10px;
+        height:50px;
+        width:auto;
+    }
+}

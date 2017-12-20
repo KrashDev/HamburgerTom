@@ -751,139 +751,67 @@ svg {
 /* MEDIA QUERIES */
 
 @media screen and (max-width:900px) {
-    #deer {
-        /* transform: scale(.75); */
-        height:100%;
-        width:auto;
+    svg {
+        position:relative;
+        top:-505px;
+        left:-37%;   
     }
     .cleaner {
-        font-size:20px;
+        transform:scale(.85);
+    }
+    .who {
+        visibility:hidden;
+    }
+    .what {
+        visibility:hidden;
+    }
+    .info {
         position:relative;
         top:-50px;
-        left:-25%;
-    }
-    .lanks {
-        visibility:hidden;
-    }
-    #fly1 {
-        visibility:hidden;
-    }
-    #fly2 {
-        visibility:hidden;
-    }
-    #fly3 {
-        visibility:hidden;
-    }
-    #fly4 {
-        visibility:hidden;
-    }
-    #fly5 {
-        visibility:hidden;
-    }
-    #fly6 {
-        visibility:hidden;
-    }    
-/* BIO SECTION */
-    #bio {
-        height:240;    
-    }
-    .face {
-        visibility:hidden;
-    }
-    .subname {
-        font-size: 20px;
-        width:100%;
-    }
-    .subname2 {
-        padding:10px;
-        visibility:unset;
-        font-size: 20px;w
-        width:100%;
-    }
-    #about {
-        left:5%;
-        font-size:14px;
-        width:100%;
-        line-height:15px;
-    }
-/* SKILLS SECTION */
-    .myskills {
-        top:10%;
-        font-size:14px;
-        width:100%;
-
+        margin-left:5%;
+        margin-right:5%;
+        text-align: center;
+        font-size:21px;
+        margin-bottom:10%;
     }
     .skills {
-        top:5%;
-        left:0%;
-        font-size:14px;
-        width:100%;
-    }
-    .resume {
-        top:15%;
-        left:-2%;
-        font-size:14px;
-        width:100%;
-    }
-    .projects {
-        height:100%;
-    }
-    .porti {
-        /* left:5%; */
-        margin-top:20px;
-        height:150px;
-        width:200px;
-    }
-    #learnMore {
-        color: #ffffff;
-        border-radius: 20px;
-        border: 2px solid #ffffff;
-        background-color: transparent;
-        position: relative;
-        top:10%;
-        padding: 10px 15px;
+        position:relative;
+        margin-left:5%;
+        margin-right:5%;
         text-align: center;
-        text-decoration: none;
-        font-size: 14px;
-        margin: 4px 2px;
-        cursor: pointer;
+        margin-bottom:10%;
     }
-    #learnMore2 {
-        color: #ffffff;
-        border-radius: 20px;
-        border: 2px solid #ffffff;
-        background-color: transparent;
-        position: relative;
-        top:80%;
-        padding: 10px 15px;
-        text-align: center;
-        text-decoration: none;
-        font-size: 14px;
-        margin: 4px 2px;
-        cursor: pointer;
+    .face {
+        left:25%;
+        margin-bottom:50px;
     }
-    #learnMore3 {
-        color: #ffffff;
-        border-radius: 20px;
-        border: 2px solid #ffffff;
-        background-color: transparent;
-        position: relative;
-        padding: 10px 15px;
+    .speakup2 {
+        margin-left:5%;
+        margin-right:5%;
         text-align: center;
-        text-decoration: none;
-        font-size: 14px;
-        margin: 4px 2px;
-        cursor: pointer;
+    }
+    .epicgg {
+        margin-left:5%;
+        margin-right:5%;
+        text-align: center;
+    }
+    .jambook2 {
+        margin-left:5%;
+        margin-right:5%;
+        text-align: center;
+    }
+    .subname {
+        width:50%;
+    }
+    .subname2 {
+        width:50%;
     }
     .animations {
-        color: #fff;
-        font-size: 14px;
-        top:0px;
-        left:0%;
+        margin-left:5%;
+        margin-right:5%;
+        font-size:25px;
     }
-    .social {
-        border-radius: 10px;
-        height:50px;
-        width:auto;
+    #learnmore3 {
+        left:21%;
     }
 }
