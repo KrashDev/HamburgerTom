@@ -1,3 +1,36 @@
+.hidden-navbar {
+    /* border:2px solid #2F345C; */
+    font-size:17px;
+    color:#fff  !important;
+    text-decoration: none;
+    position:fixed;
+    top:1%;
+    left:3%;
+    width:auto;
+    z-index:1;
+    text-shadow: 2px 2px 2px #000;
+}
+.hidden-navbar, 
+a {
+    color:#fff  !important;
+}
+a:link:hover  {
+    text-decoration: none;
+    opacity:0.5;
+}
+
+.hamburger {
+    position:fixed;
+    top:0.5%;
+    left:0.5%;
+    height:7%;
+    width:auto;
+    z-index:1;
+}
+
+.hamburger:hover {
+    opacity:0.5;
+}
 
 #deer {
     font-family: 'Raleway', sans-serif;
@@ -12,8 +45,8 @@
 /* signature animation */
 svg {
     position: relative;
-    top:-450px;
-    left:15%;
+    top:-200px;
+    left:50%;
     margin:auto;
     width:300px;
 }
@@ -72,14 +105,14 @@ svg {
         stroke-dashoffset: 0;
     }
 }
-/* bio/about info  */
+/* about info  */
 .who {
     font-family: 'Raleway', sans-serif;
     margin-top: 2%;
     margin-bottom: 1%;
     text-decoration: underline;
     font-size: 25px;
-    color: #fff;
+    color: #2F345C;
 }
 .what {
     font-family: 'Raleway', sans-serif;
@@ -87,19 +120,19 @@ svg {
     margin-bottom: 1%;
     text-decoration: underline;
     font-size: 25px;
-    color: #ffffff;
+    color: #2F345C;
 }
 .info {
     font-family: 'Raleway', sans-serif;
     font-size: 21px;
-    color: #fff;
+    color: #2F345C;
 }
 
 .skills {
     margin-bottom:5%;
     font-family: 'Raleway', sans-serif;
     font-size: 21px;
-    color: #ffffff;
+    color: #2F345C;
 }
 
 /* projects */
@@ -124,7 +157,7 @@ svg {
     text-align: center;
     margin:auto;
     margin-bottom:1%;
-    color:#4d4d4d;
+    color:#ffffff;
     font-size: 22px;
 }
 .block {
@@ -173,21 +206,14 @@ svg {
     animation-play-state: paused;
     opacity:0.5;
 }
-.hideNav {
-    visibility: hidden;
-}
-
-.unhide {
-    visibility: visible;
-}
 
 #me {
     height: 280px;
     width: auto;
 }
 
-.about {
-    background-color:#2F345C;
+#about {
+    color:#2F345C;
     font-size: 22px;
     font-family: 'Raleway', sans-serif;
     position: relative;
@@ -281,7 +307,7 @@ svg {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     position: relative;
-    top: 110px;
+    top: 0px;
     color: #ffffff;
     border-radius: 20px;
     border: 2px solid #ffffff;
@@ -513,7 +539,7 @@ svg {
     color: #fff;
     font-size: 35px;
     position: relative;
-    top:40px;
+    top:-90px;
 }
 
 #star3 {
@@ -705,12 +731,12 @@ svg {
     width:20%;
     margin:auto;
     margin-bottom: 2%;
-    color:#fff;
+    color:#2F345C;
     font-family: 'Domine', serif;
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid #2F345C;
 }
 
-.projects {
+#projects {
     text-align: left;
     padding-top: 3%;
 }
@@ -734,8 +760,10 @@ svg {
 }
 
 #plants {
+    padding-top:5%;
+    padding-bottom:5%;
     background-color:#2F345C;
-    height:500px;
+    color:#ffffff;
 }
 
 #contact {

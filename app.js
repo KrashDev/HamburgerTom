@@ -4,15 +4,22 @@ $(document).ready(function() {
                 $('.container').toggleClass('open');
             });
         })
-    $("button").click(function(){
-        var div = $("#clean");
-       $("#clean").animate({left: '300px', opacity: '0.5'}, "slow");
 
-    });
+                
+    $('.hidden-navbar').hide();
 
-    function showNav() {
+    $(function() {
+        $('.hamburger').click(function() {
+            $('.hamburger').fadeOut(300);
+            $('.hidden-navbar').fadeIn(300);     
         
-    }
+        });
+    });
+    // $("button").click(function(){
+    //     var div = $("#clean");
+    //    $("#clean").animate({left: '300px', opacity: '0.5'}, "slow");
+
+    //    }
 
     	// var first = document.querySelector("#aiJGpFF8V");
 		// var firstLengtha = first.getTotalLength();
