@@ -8,11 +8,16 @@ $(document).ready(function() {
                 
     $('.hidden-navbar').hide();
 
-    $(function() {
+     var menuState = false; 
+     $(function() {
         $('.hamburger').click(function() {
-            $('.hamburger').fadeOut(300);
-            $('.hidden-navbar').fadeIn(300);     
-        
+            if (menuState) {
+                $('.hidden-navbar').fadeOut(300);
+                menuState = false;
+            } else {
+                $('.hidden-navbar').fadeIn(300);
+                menuState = true;     
+            }
         });
     });
     // $("button").click(function(){
