@@ -172,6 +172,10 @@ svg {
     font-size: 22px;
     font-family: 'Raleway', sans-serif;
 }
+.epicgg2 {
+    position:relative;
+    top:40px;
+}
 .jambook2 {
     left:0%;
     padding-bottom:3% !important;
@@ -181,14 +185,23 @@ svg {
     font-size: 22px;
     font-family: 'Raleway', sans-serif;
 }
+.jambook {
+    position:relative;
+    top:40px;
+}
 .magic {
     margin-bottom:3%;
     text-decoration: underline;
 }
 .role {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:10px;
+    padding-top:10px;
+    color:#fff;
+    background-color:#2F345C;
     margin-top:3%;
     font-size:18px;
-    text-align: left;
+    text-align: center;
     font-family: 'Raleway', sans-serif;
 }
 /* Hidden nav bar */
@@ -751,11 +764,23 @@ svg {
     text-align: left;
     padding-top: 3%;
 }
-
+.tech {
+}
+.bubble {
+    background-color:#fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 65px;
+    padding:5px;
+    width: 65px;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px; 
+}
 .face {
     display:block;
     position:relative;
-    border-radius: 20px;
+    border-radius:110px;
     filter: drop-shadow(0px 3px 5px black);
 }
 
