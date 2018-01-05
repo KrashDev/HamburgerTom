@@ -1,3 +1,6 @@
+body {
+    overflow-x: hidden;    
+}    
 .hidden-navbar {
     /* border:2px solid #2F345C; */
     font-size:17px;
@@ -141,14 +144,12 @@ svg {
     background-image: url("random_grey2.png");
     height: 55%;
 }
-.speakup {
-
-}
 .speakup2 {
-    left: -4%;
+    margin-top:2%;
+}
+.speakup {
     margin-top:2%;
     color:#4d4d4d;
-    position: relative;
     font-size: 22px;
     font-family: 'Raleway', sans-serif;
 }
@@ -261,6 +262,9 @@ svg {
 #learnMore3:hover {
     animation: flush .25s linear forwards;
 }
+#message-me:hover {
+    animation: flush .25s linear forwards;
+}
 
 @keyframes flush {
     100% {
@@ -320,6 +324,7 @@ svg {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     position: relative;
+    left: 25%;
     top: 0px;
     color: #ffffff;
     border-radius: 20px;
@@ -548,11 +553,11 @@ svg {
 }
 
 .animations {
+    padding-top:4%;
+    padding-bottom:4%;
     text-align: center;
     color: #fff;
-    font-size: 35px;
-    position: relative;
-    top:-90px;
+    font-size: 30px;
 }
 
 #star3 {
@@ -726,15 +731,15 @@ svg {
     /*	text-align:left;*/
 }
 .btn-primary-outline,
-.message-me {
+#message-me {
     color: #ffffff;
     border-radius: 20px;
     border: 2px solid #ffffff;
     background-color: transparent;
-    padding: 15px 32px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
 }
@@ -761,10 +766,13 @@ svg {
 }
 
 #projects {
-    text-align: left;
     padding-top: 3%;
 }
-.tech {
+.message-me {
+    color:#595959;
+    font-size:20px;
+    margin: 25px;
+    padding: 40px;
 }
 .bubble {
     background-color:#fff;
@@ -797,7 +805,7 @@ svg {
 
 #plants {
     padding-top:5%;
-    padding-bottom:5%;
+    padding-bottom:1%;
     background-color:#2F345C;
     color:#ffffff;
 }
@@ -830,65 +838,69 @@ svg {
 @media screen and (max-width:900px) {
     svg {
         position:relative;
-        top:-505px;
-        left:-37%;   
-    }
-    .cleaner {
-        transform:scale(.85);
+        margin:auto;
+        left:10%;
+        transform:scale(.75);
     }
     .who {
         visibility:hidden;
+        height:0px;
     }
+
     .what {
         visibility:hidden;
+        height:0px;
     }
     .info {
-        position:relative;
-        top:-50px;
-        margin-left:5%;
-        margin-right:5%;
         text-align: center;
-        font-size:21px;
-        margin-bottom:10%;
+        transform:scale(.9);
     }
     .skills {
-        position:relative;
-        margin-left:5%;
-        margin-right:5%;
         text-align: center;
-        margin-bottom:10%;
+        transform:scale(.9);
     }
     .face {
-        left:25%;
-        margin-bottom:50px;
-    }
-    .speakup2 {
-        margin-left:5%;
-        margin-right:5%;
-        text-align: center;
-    }
-    .epicgg {
-        margin-left:5%;
-        margin-right:5%;
-        text-align: center;
-    }
-    .jambook2 {
-        margin-left:5%;
-        margin-right:5%;
-        text-align: center;
-    }
-    .subname {
-        width:50%;
-    }
-    .subname2 {
-        width:50%;
+        height:0px;
+        visibility:hidden;
     }
     .animations {
-        margin-left:5%;
-        margin-right:5%;
-        font-size:25px;
+        transform:scale(.9);
     }
-    #learnmore3 {
-        left:21%;
+    #learnMore3 {
+        transform:scale(.9);
+        text-align: center;
+    }
+    .porti {
+        transform:scale(.9);
+        position:relative;
+        left:-10%;
+    }
+    .epicgg2 {
+        margin-bottom:20%;
+    }
+    .jambook {
+        margin-bottom:20%;
+    }
+    #projects {
+        text-align: center;
+        margin-top:1%;
+        margin-bottom:1%;
+        width:90%;
+        margin:auto;
+    }
+    .more {
+        text-align: center;
+        width:90%;
+    }
+    .role {
+        margin-top:1%;
+        margin-bottom:1%;
+        width:90%;
+        margin:auto; 
+    }
+    .form-yo {
+        width:75%;
+        margin:auto;
+        text-align: center;
     }
 }
