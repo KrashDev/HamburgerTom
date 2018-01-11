@@ -4,57 +4,90 @@
 <head>
     <title>Enter the Forest</title>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bad+Script|Bubbler+One|Caveat|Comfortaa|Cookie|Dancing+Script|Gloria+Hallelujah|Handlee|Julius+Sans+One|Marck+Script|Sacramento|Satisfy|Tangerine" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bubbler+One" rel="stylesheet">
 
 </head>
 
 <body>
-    <div id="conatiner">
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <button id="main">
+        <div id="main">
 
-                    <div id="enter" class="animated">enter the forest</div>
+            <div id="enter" class="animated">enter the forest</div>
                     
-                    <div id="fly1"></div>
-                    <div id="fly2"></div>
-                    <div id="fly3"></div>
-                    <div id="fly4"></div>
-                    <div id="fly5"></div>
-                    <div id="fly6"></div>
-                    <div id="fly7"></div>
-                    <div id="fly8"></div>
-                    <div id="fly9"></div>
-                    <div id="fly10"></div>
-                    <div id="fly11"></div>
-                    <div id="fly12"></div>
-				</button>
-            </div>
+                <div id="fly1"></div>
+                <div id="fly2"></div>
+                <div id="fly3"></div>
+                <div id="fly4"></div>
+                <div id="fly5"></div>
+                <div id="fly6"></div>
+                <div id="fly7"></div>
+                <div id="fly8"></div>
+                <div id="fly9"></div>
+                <div id="fly10"></div>
+                <div id="fly11"></div>
+                <div id="fly12"></div>
+
+                <a href="yellow.html"><button type="button" id="sub" class="btn btn-primary-outline btn-lg">Next</button></a>
         </div>
-    </div>
 
     <style>
-        #shroom {
-            overflow:hidden;
-            position:absolute;
-            top:0%;
-            left:0%;
-            opacity:0;
-            animation: mush 5s linear infinite;
+            
+        body {
+            background-image: url("assets/images/forest.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            overflow-x: hidden;   
         }
-        #shroom, img {
-            width:100%;
-            height:auto;
+               
+                
+        .btn-primary-outline,
+        #sub {
+        opacity:0;
+        text-transform: uppercase;
+        font-family: 'Raleway', sans-serif;
+        position: relative;
+        left: 60%;
+        top: 500px;
+        color: #ffffff;
+        border-radius: 20px;
+        border: 2px solid #ffffff;
+        background-color: transparent;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+        cursor: pointer;
+        animation: flush 6s linear infinite;
+        animation-delay: 5s;
+        }
+/*         
+        #sub:hover {
+        animation: flush 3s linear infinite;
+        } */
+        
+        @keyframes flush {
+            50% {opacity:0.8;}
+            100% {opacity:0.4;}
+            }
+
+        #enter {
+            text-transform: uppercase;
+            color: #e6e6e6;
+            opacity:0;
+            font-family: 'Bubbler One', sans-serif;
+            animation: flush 3s linear forwards;
+            animation-delay: 1s;
+            font-size: 70px;
+            filter: blur(4px);
+            position:relative;
+            left:50%;
+            top: 200px;
+            margin:auto;
         }
 
-        @keyframes mush {
-            0% {}
-            50% {opacity:0.5;}
-            100%{}
+        @keyframes flush {
+         100% {opacity:1;filter: blur(1px);}
         }
+
         #fly1 {
             position: absolute;
             top: 60%;
@@ -326,40 +359,7 @@
                 opacity: 0;
             }
         }
-        
-        #enter {
-            text-transform: uppercase;
-            color: #e6e6e6;
-            opacity:0;
-            font-family: 'Bubbler One', sans-serif;
-            animation: flush 3s linear forwards;
-            animation-delay: 1s;
-            font-size: 60px;
-            position: absolute;
-            filter: blur(4px);
-            top: 30%;
-            left: 30%;
-        }
 
-        @keyframes flush {
-         100% {
-            opacity:1;
-            filter: blur(1px);
-        }
-        }
-        
-        #main {
-            margin-top: 100px;
-            width: 1000px;
-            height: 550px;
-            background-image: url("assets/images/forest.jpg");
-            /* filter: brightness(0.75); */
-            background-size: cover;
-            box-shadow: 10px 10px 5px #888888;
-            position: absolute;
-            top: 20%;
-            left: 15%;
-        }
     </style>
 
     <script>
@@ -367,9 +367,9 @@
         // var shapeLength = shape.getTotalLength();
         // console.log(shapeLength);
 
-        $("#main").click(function() {
-            window.location.href = "yellow.html";
-        });
+        // $("#main").click(function() {
+        //     window.location.href = "yellow.html";
+        // });
     </script>
 
 </body>

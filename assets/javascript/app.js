@@ -5,7 +5,14 @@ $(document).ready(function() {
             });
         })
 
-                
+        // get year for footer
+        var today = new Date();
+        var year = today.getFullYear();
+
+        var el = document.getElementById('copyright');
+        el.innerHTML = '<p>Copyright &copy; ' + year + ' Donny Gabai</p>'
+
+        // toggle navbar
     $('.hidden-navbar').hide();
 
      var menuState = false; 

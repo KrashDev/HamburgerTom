@@ -3,13 +3,13 @@
 
 <head>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway|Roboto+Mono" rel="stylesheet">
     <title>404 Animation</title>
 </head>
 
 <body>
 
+    <h1>Page Not Found</h1>
 
     <div id="one"></div>
     <div id="two"></div>
@@ -42,31 +42,58 @@
     <div id="twentynine"></div>
     <div id="thirty"></div>
 
-    <h1>Page Not Found</h1>
+    <a href="index3.html"><button type="button" id="portfolio" class="btn btn-primary-outline btn-lg">Portfolio</button></a>
 
     <style>
         body {
-            background-image: url(footer_lodyas.png);
-            /*background-color:black;*/
+            background-image: url('assets/images/dark-brick.png');
         }
         
         h1 {
+            font-family: 'Montserrat', sans-serif;
             position: relative;
             color: #ccffff;
-            text-align: right;
-            right: 100px;
+            text-align: center;
             font-size: 60px;
-            animation-delay: 5;
-            animation-duration: 0.5s;
-            animation-iteration-count: 1;
-            animation-name: boop;
+            animation: boop 2s linear forwards;
+            animation-delay: 5s;
+            opacity:0;
         }
-        /*@keyframes boop {
-			0% {opacity:1;color:#ffcccc;}
-			50% {color:#ccccff;}
-			100% {opacity:0;color:#ccffff;}
-		}*/
+        @keyframes boop {
+			0% {}
+			50% {}
+			100% {opacity:1;}
+        }
         
+        .btn-primary-outline,
+        #portfolio {
+        text-transform: uppercase;
+        font-family: 'Raleway', sans-serif;
+        position: relative;
+        left: 60%;
+        top: 500px;
+        color: #ffffff;
+        border-radius: 20px;
+        border: 2px solid #ffffff;
+        background-color: transparent;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+        cursor: pointer;
+        }
+        
+        #portfolio:hover {
+        animation: flush .25s linear forwards;
+        }
+        
+        @keyframes flush {
+            100% {
+                color: #000000;
+                background-color: #ffffff;
+                }
+            }
+
         div {
             width: 50px;
             height: 50px;
